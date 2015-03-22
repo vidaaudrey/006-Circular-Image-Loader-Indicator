@@ -7,4 +7,6 @@
 
 **Use**: Create an UIImageView in storyboard and specify the class to be “CustomImageView"
 
+**Todo**: Create an image downloading service to handle separate from the UIImageView 
+
 [*Reference*](http://www.raywenderlich.com/94302/implement-circular-image-loader-animation-cashapelayer)
