@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76517ED71ABF55F200922ADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76517ED61ABF55F200922ADE /* AppDelegate.swift */; };
+		76517ED91ABF55F200922ADE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76517ED81ABF55F200922ADE /* ViewController.swift */; };
+		76517EDC1ABF55F200922ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76517EDA1ABF55F200922ADE /* Main.storyboard */; };
+		76517EDE1ABF55F200922ADE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76517EDD1ABF55F200922ADE /* Images.xcassets */; };
+		76517EE11ABF55F200922ADE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76517EDF1ABF55F200922ADE /* LaunchScreen.xib */; };
+		76517EED1ABF55F200922ADE /* _06_Circular_Image_Loader_IndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76517EEC1ABF55F200922ADE /* _06_Circular_Image_Loader_IndicatorTests.swift */; };
+		76517EF81ABF560D00922ADE /* CircularLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76517EF61ABF560D00922ADE /* CircularLoaderView.swift */; };
+		76517EF91ABF560D00922ADE /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76517EF71ABF560D00922ADE /* CustomImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76517EE71ABF55F200922ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76517EC91ABF55F200922ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76517ED01ABF55F200922ADE;
+			remoteInfo = "006-Circular-Image-Loader-Indicator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76517ED11ABF55F200922ADE /* 006-Circular-Image-Loader-Indicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "006-Circular-Image-Loader-Indicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76517ED51ABF55F200922ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76517ED61ABF55F200922ADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76517ED81ABF55F200922ADE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76517EDB1ABF55F200922ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76517EDD1ABF55F200922ADE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76517EE01ABF55F200922ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76517EE61ABF55F200922ADE /* 006-Circular-Image-Loader-IndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "006-Circular-Image-Loader-IndicatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76517EEB1ABF55F200922ADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76517EEC1ABF55F200922ADE /* _06_Circular_Image_Loader_IndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _06_Circular_Image_Loader_IndicatorTests.swift; sourceTree = "<group>"; };
+		76517EF61ABF560D00922ADE /* CircularLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularLoaderView.swift; sourceTree = "<group>"; };
+		76517EF71ABF560D00922ADE /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76517ECE1ABF55F200922ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76517EE31ABF55F200922ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76517EC81ABF55F200922ADE = {
+			isa = PBXGroup;
+			children = (
+				76517ED31ABF55F200922ADE /* 006-Circular-Image-Loader-Indicator */,
+				76517EE91ABF55F200922ADE /* 006-Circular-Image-Loader-IndicatorTests */,
+				76517ED21ABF55F200922ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76517ED21ABF55F200922ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76517ED11ABF55F200922ADE /* 006-Circular-Image-Loader-Indicator.app */,
+				76517EE61ABF55F200922ADE /* 006-Circular-Image-Loader-IndicatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76517ED31ABF55F200922ADE /* 006-Circular-Image-Loader-Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				76517EF61ABF560D00922ADE /* CircularLoaderView.swift */,
+				76517EF71ABF560D00922ADE /* CustomImageView.swift */,
+				76517ED81ABF55F200922ADE /* ViewController.swift */,
+				76517EDA1ABF55F200922ADE /* Main.storyboard */,
+				76517ED41ABF55F200922ADE /* Supporting Files */,
+			);
+			path = "006-Circular-Image-Loader-Indicator";
+			sourceTree = "<group>";
+		};
+		76517ED41ABF55F200922ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76517ED61ABF55F200922ADE /* AppDelegate.swift */,
+				76517EDD1ABF55F200922ADE /* Images.xcassets */,
+				76517EDF1ABF55F200922ADE /* LaunchScreen.xib */,
+				76517ED51ABF55F200922ADE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76517EE91ABF55F200922ADE /* 006-Circular-Image-Loader-IndicatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				76517EEC1ABF55F200922ADE /* _06_Circular_Image_Loader_IndicatorTests.swift */,
+				76517EEA1ABF55F200922ADE /* Supporting Files */,
+			);
+			path = "006-Circular-Image-Loader-IndicatorTests";
+			sourceTree = "<group>";
+		};
+		76517EEA1ABF55F200922ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76517EEB1ABF55F200922ADE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76517ED01ABF55F200922ADE /* 006-Circular-Image-Loader-Indicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76517EF01ABF55F200922ADE /* Build configuration list for PBXNativeTarget "006-Circular-Image-Loader-Indicator" */;
+			buildPhases = (
+				76517ECD1ABF55F200922ADE /* Sources */,
+				76517ECE1ABF55F200922ADE /* Frameworks */,
+				76517ECF1ABF55F200922ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "006-Circular-Image-Loader-Indicator";
+			productName = "006-Circular-Image-Loader-Indicator";
+			productReference = 76517ED11ABF55F200922ADE /* 006-Circular-Image-Loader-Indicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76517EE51ABF55F200922ADE /* 006-Circular-Image-Loader-IndicatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76517EF31ABF55F200922ADE /* Build configuration list for PBXNativeTarget "006-Circular-Image-Loader-IndicatorTests" */;
+			buildPhases = (
+				76517EE21ABF55F200922ADE /* Sources */,
+				76517EE31ABF55F200922ADE /* Frameworks */,
+				76517EE41ABF55F200922ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76517EE81ABF55F200922ADE /* PBXTargetDependency */,
+			);
+			name = "006-Circular-Image-Loader-IndicatorTests";
+			productName = "006-Circular-Image-Loader-IndicatorTests";
+			productReference = 76517EE61ABF55F200922ADE /* 006-Circular-Image-Loader-IndicatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76517EC91ABF55F200922ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Shomigo;
+				TargetAttributes = {
+					76517ED01ABF55F200922ADE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					76517EE51ABF55F200922ADE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 76517ED01ABF55F200922ADE;
+					};
+				};
+			};
+			buildConfigurationList = 76517ECC1ABF55F200922ADE /* Build configuration list for PBXProject "006-Circular-Image-Loader-Indicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76517EC81ABF55F200922ADE;
+			productRefGroup = 76517ED21ABF55F200922ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76517ED01ABF55F200922ADE /* 006-Circular-Image-Loader-Indicator */,
+				76517EE51ABF55F200922ADE /* 006-Circular-Image-Loader-IndicatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76517ECF1ABF55F200922ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76517EDC1ABF55F200922ADE /* Main.storyboard in Resources */,
+				76517EE11ABF55F200922ADE /* LaunchScreen.xib in Resources */,
+				76517EDE1ABF55F200922ADE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76517EE41ABF55F200922ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76517ECD1ABF55F200922ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76517ED91ABF55F200922ADE /* ViewController.swift in Sources */,
+				76517EF91ABF560D00922ADE /* CustomImageView.swift in Sources */,
+				76517ED71ABF55F200922ADE /* AppDelegate.swift in Sources */,
+				76517EF81ABF560D00922ADE /* CircularLoaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76517EE21ABF55F200922ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76517EED1ABF55F200922ADE /* _06_Circular_Image_Loader_IndicatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76517EE81ABF55F200922ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76517ED01ABF55F200922ADE /* 006-Circular-Image-Loader-Indicator */;
+			targetProxy = 76517EE71ABF55F200922ADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76517EDA1ABF55F200922ADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76517EDB1ABF55F200922ADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76517EDF1ABF55F200922ADE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76517EE01ABF55F200922ADE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76517EEE1ABF55F200922ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76517EEF1ABF55F200922ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76517EF11ABF55F200922ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "006-Circular-Image-Loader-Indicator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76517EF21ABF55F200922ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "006-Circular-Image-Loader-Indicator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76517EF41ABF55F200922ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "006-Circular-Image-Loader-IndicatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/006-Circular-Image-Loader-Indicator.app/006-Circular-Image-Loader-Indicator";
+			};
+			name = Debug;
+		};
+		76517EF51ABF55F200922ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "006-Circular-Image-Loader-IndicatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/006-Circular-Image-Loader-Indicator.app/006-Circular-Image-Loader-Indicator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76517ECC1ABF55F200922ADE /* Build configuration list for PBXProject "006-Circular-Image-Loader-Indicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76517EEE1ABF55F200922ADE /* Debug */,
+				76517EEF1ABF55F200922ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76517EF01ABF55F200922ADE /* Build configuration list for PBXNativeTarget "006-Circular-Image-Loader-Indicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76517EF11ABF55F200922ADE /* Debug */,
+				76517EF21ABF55F200922ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76517EF31ABF55F200922ADE /* Build configuration list for PBXNativeTarget "006-Circular-Image-Loader-IndicatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76517EF41ABF55F200922ADE /* Debug */,
+				76517EF51ABF55F200922ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76517EC91ABF55F200922ADE /* Project object */;
+}
